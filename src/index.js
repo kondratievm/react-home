@@ -3,44 +3,6 @@ import {render} from 'react-dom';
 
 const target = document.getElementById('root');
 
-// const user = {
-//    name: 'Petrov Petr',
-//    age: 30,
-//    hobby: ['codding', 'music', 'sport']
-// };
-
-// const UserInfo = function(props) {
-//    const {name, age, hobby} = props;
-
-//    return (
-//       <ul className='info-list'>
-//          <li>FIO: {name}</li>
-//          <li>Age: {age}</li>
-//          <li>Hobby: {hobby.join(', ')}</li>
-//       </ul>
-//    )
-// }
-
-// const app = (
-//    <main>
-//       <UserInfo name={user.name} age={user.age} hobby={user.hobby}/>
-//    </main>
-// );
-
-// const HelloComponent = props => {
-//    let {name} = props;
-
-//    return (
-//       <h1>Hi, {name}!</h1>
-//    )
-// }
-
-// const app = (
-//    <main>
-//       <HelloComponent name='Maxim'/>
-//    </main>
-// );
-
 const todoList = [
    'купить молоко',
    'прочитать статью',
