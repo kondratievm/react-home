@@ -1,0 +1,57 @@
+.mainContent {
+   width: 350px;
+   padding: 8px;
+   border: 1px dotted red;
+};
+
+.itemBrand {
+   margin-bottom: 5px;
+   font-family: 'Arial';
+   font-weight: 200;
+};
+
+.itemTitle {
+   margin-bottom: 5px;
+   font-family: 'Arial';
+   font-weight: 300;
+   font-size: 40px;
+   text-transform: uppercase;
+};
+
+.itemDescription {
+   margin-bottom: 15px;
+   font-family: 'Arial';
+   font-weight: 500;
+   font-size: 16px;
+   text-transform: uppercase;
+   color: gray;
+}; 
+
+.itemDescriptionFull {
+   font-family: 'Arial';
+   font-size: 14px;
+};
+
+.divider {
+   width: 300px;
+   height: 1px;
+   background-color: gray;
+   margin: 20px auto 20px;
+};
+
+.price {
+   font-family: 'Arial';
+   font-size: 30px;
+};
+
+.purchaseInfo {
+   display: flex;
+   justify-content: space-between;
+};
+
+.button {
+   padding: 5px 20px;
+   color: white;
+   background-color: black;
+   line-height: 98%;
+};
