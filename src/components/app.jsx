@@ -1,19 +1,15 @@
 import React from 'react';
 import {ShopItem} from './shopcard/shopcard';
+import {shopObject} from './shopcard/shopcard';
+import {menuItems} from './menu/menu';
+import {ModalMenu} from './menu/menu';
 
-export const item = {
-   brand: 'Tiger of Sweden',
-   title: 'Leonard coat',
-   description: 'Minimalistic coat in cotton-blend',
-   descriptionFull: 'Men\'s minimalistic overcoat in cotton-blend. Features a stand-up collar, concealed front closure and single back vent. Slim fit with clean, straight shape. Above-knee length.',
-   price: 399,
-   currency: '£'
-};
 
 export const App = () => {
    return (
       <div>
-         <ShopItem item={item}/>
+         {/* <ShopItem item={shopObject}/> */}
+         <ModalMenu items={menuItems} isOpen={true}/>
       </div>
    )
 }
